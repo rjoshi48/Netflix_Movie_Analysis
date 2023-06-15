@@ -1,0 +1,117 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportModelEvaluationStores": true,
+    "exportProjectResources": true,
+    "exportLabelingTasks": true,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": false,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "exportSavedModelsRequiredVersions": false,
+    "exportNotebooksWithOutputs": true,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "shareAllInputDatasets": false,
+    "exportForeignObjectsReferences": true
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "netflix_titles",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 3399671
+      },
+      {
+        "name": "netflix_titles_cast_counting",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 18350015
+      },
+      {
+        "name": "netflix_titles_cast_counting_by_cast",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 636497
+      },
+      {
+        "name": "netflix_titles_movies",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 2333893
+      },
+      {
+        "name": "netflix_titles_prepared",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 3645918
+      }
+    ],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "NETFLIX_ANALYSIS",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "12.0.0",
+  "generatedWithDSSConfVersion": "12000",
+  "foreignObjects": [],
+  "exportedWithPlugins": [
+    {
+      "pluginId": "geoadmin",
+      "version": "2.3.1"
+    },
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "dku-saas",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "code-studio-blocks",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    }
+  ],
+  "exportedWithCodeStudioTemplates": [],
+  "requiredCodeStudioTemplates": [],
+  "requiredConnections": {
+    "dataiku-managed-storage": {
+      "name": "dataiku-managed-storage",
+      "type": "EC2",
+      "isMissing": false
+    }
+  },
+  "allowedMissingConnections": [],
+  "usedCodeEnvRefs": [],
+  "allowedMissingCodeEnvs": [],
+  "hasPartitionedDataset": false
+}

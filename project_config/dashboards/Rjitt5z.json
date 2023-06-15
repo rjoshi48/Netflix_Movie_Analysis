@@ -1,0 +1,85 @@
+{
+  "pages": [
+    {
+      "id": "PsHX0a2",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 6,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "title": "Year",
+            "insightId": "YeMR8Ze",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 6,
+              "width": 5,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "Sy0JkIq",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "title": "Popular release year for movies",
+      "showTitle": false
+    }
+  ],
+  "owner": "rinnijoshi.16@gmail.com",
+  "listed": false,
+  "name": "Netflix_Analysis",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 4,
+    "lastModifiedBy": {
+      "login": "rinnijoshi.16@gmail.com"
+    },
+    "lastModifiedOn": 1686861830154,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "rinnijoshi.16@gmail.com"
+    },
+    "lastModifiedOn": 1686861156030,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

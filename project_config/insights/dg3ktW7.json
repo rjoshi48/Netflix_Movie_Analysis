@@ -1,0 +1,31 @@
+{
+  "type": "filters",
+  "params": {
+    "datasetSmartName": "netflix_titles_movies"
+  },
+  "owner": "rinnijoshi.16@gmail.com",
+  "listed": false,
+  "name": "Filters on netflix_titles_movies",
+  "dashboardCreationId": "RG1cjlK",
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "rinnijoshi.16@gmail.com"
+    },
+    "lastModifiedOn": 1686858790532,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "rinnijoshi.16@gmail.com"
+    },
+    "lastModifiedOn": 1686858751841,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
